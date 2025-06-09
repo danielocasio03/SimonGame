@@ -10,6 +10,12 @@ You can see the live demo here: https://danielocasio03.github.io/SimonGame/ <!--
 
 ---
 
+## 👀 Preview
+
+![image](https://github.com/user-attachments/assets/91f82ebd-e1c0-403a-9c3f-a29f37918842)
+
+---
+
 ## 🚀 Features
 
 - Randomly generated color sequences  
