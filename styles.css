@@ -1,0 +1,133 @@
+body {
+    background-color: #222831;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 5rem;
+    margin: 0;
+    color: #9AD4D8;
+}
+
+h2{
+    display: none;
+    font-size: 1.5rem;
+    word-spacing: .25rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    color: #9AD4D8;  
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin: 1rem 10%;
+    text-wrap: balance;
+    color: #619B9F;  
+}
+
+p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.start-btn {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.25rem;
+    background-color: #9AD4D8;
+    color: #222831;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    width: fit-content;
+}
+
+@media (max-width: 400px) {
+    .start-btn {
+        width: 100%;
+        font-size: 1rem;
+        padding: 0.75rem 1rem;
+    }
+}
+
+
+.main-font {
+    font-family: "VT323", monospace;
+    font-style: normal;
+}
+
+.game-font {
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  text-align: center;
+  padding: 1rem;
+}
+
+.score-box {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+    gap: 10rem;
+    height: 10vh;
+}
+
+.game-board{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.5rem;
+    border-color: #1E1E1E;
+    border-width: 2rem;
+    border-style: solid;
+    width: clamp(300px, 50vmin, 550px);
+    height: clamp(300px, 50vmin, 550px);
+    margin-top: 1rem;
+    border-radius: 50%;
+    background-color: #1E1E1E;
+    box-shadow: 0 0 20px 6px rgba(0,0,0,0.25);
+    overflow: hidden;
+}
+
+.btn {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+#green {
+    background-color: #00A74A;
+}
+
+#red {
+    background-color: #9F0F17;
+}
+
+#blue {
+    background-color: #094A8F;
+}
+
+#yellow {
+    background-color: #FED93F;
+}

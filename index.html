@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Simon Game</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!--Linked Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="centered">
+        <h1 class="main-font">The Simon Game</h1>
+        <h3 class="main-font">Test your memory and reflexes! Repeat the sequence of flashing colors as it gets longer and longer!</h3>
+        <div class="game-board">
+            <div id="red" class="btn"></div>
+            <div id="green" class="btn"></div>
+            <div id="blue" class="btn"></div>
+            <div id="yellow" class="btn"></div>
+        </div>
+        <h2 class="game-font">You Lost! Try again?</h2>
+        <button class="start-btn game-font">Start Game</button>
+    </div>
+    <div class="score-box">
+        <p class="game-font">SCORE: 0</p>
+        <p class="game-font">HIGHSCORE: 0</p>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
